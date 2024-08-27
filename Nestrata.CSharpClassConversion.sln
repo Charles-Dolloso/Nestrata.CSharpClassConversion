@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nestrata.CSharpClassConversion.Application", "Nestrata.CSharpClassConversion.Application\Nestrata.CSharpClassConversion.Application.csproj", "{B5D3EB2B-9498-4183-942C-D92FC7331537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nestrata.CSharpClassConversion.Domain", "Nestrata.CSharpClassConversion.Domain\Nestrata.CSharpClassConversion.Domain.csproj", "{9F0FF418-D1C0-410C-826C-A8BA1FB1232A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D3EB2B-9498-4183-942C-D92FC7331537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3EB2B-9498-4183-942C-D92FC7331537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3EB2B-9498-4183-942C-D92FC7331537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3EB2B-9498-4183-942C-D92FC7331537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0FF418-D1C0-410C-826C-A8BA1FB1232A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0FF418-D1C0-410C-826C-A8BA1FB1232A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0FF418-D1C0-410C-826C-A8BA1FB1232A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0FF418-D1C0-410C-826C-A8BA1FB1232A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8839332-A988-4535-9763-339EBFEAD416}
+	EndGlobalSection
+EndGlobal
