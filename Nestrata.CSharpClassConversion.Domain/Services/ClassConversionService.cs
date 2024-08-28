@@ -51,7 +51,7 @@ namespace Nestrata.CSharpClassConversion.Domain.Services
                     }
                     else if (propertyType.Contains("List")) // declare list
                     {
-                        response += $"{GetPropertyName(propertyName, propertyType)}: {propertyType.Replace("List<", "").Replace(">", "")}[];";
+                        response += $"{GetPropertyName(propertyName, propertyType)}: {propertyType.Replace("List<", "").Replace("?", "").Replace(">", "")}[];";
                     }
 
                     response += "\r\n";

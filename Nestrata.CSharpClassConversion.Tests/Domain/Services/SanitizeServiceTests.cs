@@ -111,11 +111,13 @@ namespace Nestrata.CSharpClassConversion.Test.Domain.Services
         [InlineData("short?", "?")]
         [InlineData("long?", "?")]
         [InlineData("decimal?", "?")]
+        [InlineData("List<Test>?", "?")]
         [InlineData("string", "")]
         [InlineData("int", "")]
         [InlineData("short", "")]
         [InlineData("long", "")]
         [InlineData("decimal", "")]
+        [InlineData("List<Test>", "")]
         public void Service_CheckNullableProperty_Success(string propertyType, string expectedResult)
         {
             //Act
