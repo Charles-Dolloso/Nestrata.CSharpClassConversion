@@ -39,7 +39,7 @@ namespace Nestrata.CSharpClassConversion.Domain.Services
                     }
                     else if (propertyType.Contains("string")) // declare string
                     {
-                        response += $"{GetPropertyName(propertyName, propertyType)}: {propertyType};";
+                        response += $"{GetPropertyName(propertyName, propertyType)}: string;";
                     }
                     else if (propertyType.Contains("int") || propertyType.Contains("long") || propertyType.Contains("short")) // declare number
                     {
